@@ -12,8 +12,19 @@
 
 }
 
-#profile {
-	background-color: #3b5998;
+.dp {
+	width: 30px;
+	height: 30px;
+	background-image: url(../images/dp.jpg);
+}
+
+.headerLogo
+{
+	height: 50px;
+}
+
+#profileAlign {
+
 	padding-top: 10px;
 	font-size: 16px;
 }
@@ -28,8 +39,13 @@
 	background-color: #fff;
 	border-color: #ccc;
 	margin-top: 8px;
-
 }
+.dpPhoto
+{
+	height: 30px;
+	width: 30px;
+}
+
 
 a {
 	color: #293e6a;
@@ -41,8 +57,11 @@ a:hover, a:focus {
 	text-decoration: none;
 }
 
-
-
+.fbPost{
+	background-color: white;
+	margin:8px;
+	padding: 10px;
+}
 
 .btn-danger {
 	background-repeat: repeat-x;
@@ -50,9 +69,21 @@ a:hover, a:focus {
 	background-image: linear-gradient(to bottom, #D9534F 0%, #C12E2A 100%);
 }
 
+.grey-text{
+	color: gray;
+}
 
 
+body{
+	background-color: #dfe3ee;
+}
 
+#upload_link{
+	text-decoration:none;
+}
+#upload{
+	display:none
+}
 
 
 

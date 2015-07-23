@@ -3,49 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Welcome to facebook</title>
+    <title>Facebook</title>
+    <link rel="shortcut icon" type="image/ico" href="images/facebook.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="images/facebook.png"/>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
+
 </head>
-
 <body>
-
 <div class="container-fluid" >
     <div class="row">
         <div class="main">
             <div class="row">
-                <div class="col-xs-1 logo"> <img src="images/logo3.png" height="50px"></div>
+                <div class="col-xs-1 logo headerLogo"> <img src="images/headerLogo.png" class="headerLogo" ></div>
                 <div class="col-xs-4 col-md-4" class="main">
                     <div class="input-group">
                         <input type="text" class="form-control input1" placeholder="Search on Facebook">
                             <span class="input-group-btn">
-                            	<button class="btn button1" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                            	<button class="btn button1" type="button"><span class="glyphicon glyphicon-search"></span></button>
                             </span>
                     </div>
                 </div>
                 <div class="col-xs-1 col-md-1"></div>
-                <div class="col-xs-6 col-md-4 dropdown" id="profile">
-                    <span><a class="" href="#" role="button" style="color:white"><img src="images/dp.jpg" height="30px" width="30px">&nbsp;Eldhose</a></span>&nbsp; |
-                    <span><a class="" href="#" role="button" style="color:white">Home</a></span>&nbsp;&nbsp;&nbsp;
-                    <div class="dropdown drop">
-  							<span class="" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    							<a href=""> <span class="glyphicon glyphicon-user" aria-hidden="true"></span> </a>&nbsp;
+                <div class="col-xs-6 col-md-4 dropdown" id="profileAlign">
 
-  							</span>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                            <li><a href="#">Action</a></li>
+                    <span><a class="" href="#" role="button" style="color:white"><img src="images/dp.jpg" class="dpPhoto">&nbsp;&nbsp;Eldhose</a></span>
+                    &nbsp;|&nbsp;
+                    <span><a class="" href="#" role="button" style="color:white">Home</a></span>&nbsp;&nbsp;
+
+                    <div class="dropdown drop">
+  							<span class="" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    							<a href=""> <span class="glyphicon glyphicon-user" aria-hidden="true"></span> </a>&nbsp;
+                            </span>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">test</a></li>
                             <li><a href="#">Another action</a></li>
                             <li><a href="#">Something else here</a></li>
                             <li><a href="#">Separated link</a></li>
                         </ul>
                     </div>
                     <div class="dropdown drop">
-  							<span class="" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+  							<span class="" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
     							<a href=""> <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> </a>&nbsp;
 
   							</span>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <ul class="dropdown-menu">
                             <li><a href="#">Action</a></li>
                             <li><a href="#">Another action</a></li>
                             <li><a href="#">Something else here</a></li>
@@ -54,7 +57,7 @@
                     </div>
                     <div class="dropdown drop">
   							<span class="" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    							<a href=""> <span class="glyphicon glyphicon-globe" aria-hidden="true"><span class="btn-danger badge">1</span></span> </a>&nbsp;
+    							<a href=""> <span class="glyphicon glyphicon-globe" aria-hidden="true"><span class="btn-danger badge">4</span></span> </a>&nbsp;
 
   							</span>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -64,11 +67,13 @@
                             <li><a href="#">Separated link</a></li>
                         </ul>
                     </div>
-                    <!--<span class="glyphicon glyphicon-option-vertical" aria-hidden="true"></span>-->|&nbsp;&nbsp;
+
+
+                    &nbsp;&nbsp;
 
 
                     <div class="dropdown drop">
-  							<span class="" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+  							<span class="" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
     							<a href=""> <span class="glyphicon glyphicon-lock" aria-hidden="true"></span> </a>&nbsp;
 
   							</span>
@@ -80,7 +85,7 @@
                         </ul>
                     </div>
                     <div class="dropdown drop">
-  							<span class="" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+  							<span class="" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
     							<a href=""> <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span> </a>&nbsp;
 
   							</span>
@@ -105,23 +110,113 @@
         </div>
     </div>
 </div>
-<div class="row">
-    <div class="col-md-2">
-        cmcj,
-    </div>
-    <div class="col-md-4">
-        ncx
-    </div>
-    <div class="col-md-4">
-        lvh
-    </div>
-    <div class="col-md-2">
-
-        Copy
 
 
-    </div>
-</div>
+<section class="container-fluid">
+    <section class="col-md-3">
+        list of links
+    </section>
+    <section class="col-md-6">
+        <section class="fbPost">
+            <header class="container-fluid post-content">
+                &nbsp;&nbsp;&nbsp;
+                <a class="btn"><span class="glyphicon glyphicon-pencil"></span>&nbsp;Update Status</a>
+                <a class="btn"><span class="glyphicon glyphicon-film"></span>&nbsp;Add Photos/Video</a>
+                <input id="upload" type="file"/>
+                <a href="" id="upload_link" class="btn"><span class="glyphicon glyphicon-th-large"></span>&nbsp;Create Photo Album</a>
+            </header>
+            <section>
+                <textarea class="form-control" rows="3" placeholder="Type Something"></textarea>
+            </section>
+            <footer class="container-fluid header-item">
+                <div class="row">
+                    <br/>
+                    <div class="col-md-8">
+                        <button class="btn"><span class="glyphicon glyphicon-camera"></span></button>
+                        &nbsp;&nbsp;
+                        <button class="btn"><span class="glyphicon glyphicon-user"></span></button>
+                        &nbsp;&nbsp;
+                        <button class="btn"><span class="glyphicon glyphicon-off"></span></button>
+                        &nbsp;&nbsp;
+                        <button class="btn"><span class="glyphicon glyphicon-map-marker"></span></button>
+                    </div>
+                    <div class="col-md-4">
+
+                        <!-- Single button -->
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Public <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="glyphicon glyphicon-globe">&nbsp;Public
+                                <br/><small>&nbsp&nbsp;&nbsp;Anyone&nbsp;on&nbsp;or&nbsp;off&nbsp;facebook</small>
+                                </a>
+                                </li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#" class="glyphicon glyphicon-user">&nbsp;Friends
+                                <br/><small>&nbsp&nbsp;&nbsp;Only your friends</small>
+                                </a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#" class="glyphicon glyphicon-lock">&nbsp;Only me
+                                    <br/><small>&nbsp&nbsp;&nbsp;Only me</small>
+                                </a></li>
+
+                            </ul>
+                        </div>
+                        &nbsp;&nbsp;&nbsp;
+                        <button type="button" class="btn btn-primary">Post</button>
+
+                   </div>
+                </div>
+            </footer>
+        </section>
+        <article class="fbPost">
+            <header class="container-fluid">
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-md-1">
+                            <span class="glyphicon glyphicon-user"></span>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="row">
+                                <a class="links"><b>Name Last</b></a>
+                            </div>
+                            <div class="row">
+                                <a class="grey-text">Time</a>
+                                <a class="grey-text">Privacy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1">
+                    <span class="glyphicon glyphicon-menu-down"></span>
+                </div>
+            </header>
+            <section class="post-content">
+                <p>But would you kindly ponder this question: What would your good do if
+                    evil didn't exist, and what would the earth look like if all the shadows
+                    disappeared? After all, shadows are cast by things and people. Here is the
+                    shadow of my sword. But shadows also come from trees and living beings.
+                    Do you want to strip the earth of all trees and living things just because
+                    of your fantasy of enjoying naked light? You're stupid
+                </p>
+                <figure>
+                    <img class= "img-responsive" src="img/fig.png">
+                </figure>
+                <footer class="container"><a class="grey-text">X likes y comments z shares</a></footer>
+            </section>
+            <section class="container-fluid">
+                <a class="grey-text"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a>
+                <a class="grey-text"><span class="glyphicon glyphicon-share">Share</a>
+                <a class="grey-text"><span class="glyphicon glyphicon-list">Comment</a>
+            </section>
+        </article>
+    </section>
+    <section class="col-md-3">
+        advts.etc.
+    </section>
+</section>
+
 
 
 </body>

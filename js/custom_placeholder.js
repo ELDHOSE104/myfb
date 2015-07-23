@@ -41,6 +41,9 @@ function printLetter(string, el) {
 }
 
 // function to init animation
+
+
+//function to upload a file
 function placeholder() {
     $(searchBar).attr("placeholder", "");
     printLetter(ph, searchBar);
@@ -51,4 +54,11 @@ $('.submit').click(function(e){
     phCount = 0;
     e.preventDefault();
     placeholder();
+});
+
+$(function(){
+    $("#upload_link").on('click', function(e){
+        e.preventDefault();
+        $("#upload:hidden").trigger('click');
+    });
 });
