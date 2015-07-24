@@ -73,6 +73,62 @@ a:hover, a:focus {
 	color: gray;
 }
 
+.news{
+	color: black;
+}
+.right{
+	text-align: right;
+	font-style: bold;
+	color: rgba(0, 0, 0, .5);
+	font-size: 100%;
+}
+
+#hover-content {
+	display:none;
+	width: 100%;
+	min-width: 10px;
+	max-width: 190px;
+	padding-left: 65px;
+}
+
+#parent:hover #hover-content {
+	display:inline;
+	text-align: right;
+	min-width: 10px;
+	max-width: 190px;
+
+}
+
+.groupicon{
+	color: white;
+	border-radius: 3px;
+	font-size: 13px;
+	background-color: #3b5998;
+}
+
+
+
+.newText{
+	color: rgba(0, 0, 0, .355);
+	text-decoration: shadow;
+	line-height: 2;
+	height: 10px;
+}
+
+.links
+{
+	display: inline;
+	text-decoration:none;
+}
+
+.link{
+	color: black;
+}
+
+.link:hover{
+	color: black;
+	text-decoration: underline;
+}
 
 body{
 	background-color: #dfe3ee;
@@ -81,9 +137,25 @@ body{
 #upload_link{
 	text-decoration:none;
 }
+
 #upload{
 	display:none
 }
+
+#sticky {
+
+	color: #fff;
+	font-size: 2em;
+
+}
+#sticky.stick {
+	position: fixed;
+	top: 0;
+	z-index: 6;
+	border-radius: 0 0 0.5em 0.5em;
+}
+
+
 
 
 
