@@ -33,6 +33,14 @@
 	line-height: normal;
 	margin-top: 8px;
 }
+.division{
+	position: relative;
+	min-height: 1px;
+	padding-right: 5px;
+	padding-left: 5px;
+	width: 20%;
+	float: left;
+}
 .button1
 {
 	color: #333;
@@ -40,12 +48,23 @@
 	border-color: #ccc;
 	margin-top: 8px;
 }
+
 .dpPhoto
 {
 	height: 30px;
 	width: 30px;
 }
+.seprate {
+	height: 1px;
+	margin: 9px 0;
+	overflow: hidden;
+	background-color: #e5e5e5;
+}
 
+.groups{
+	height: 25px;
+	width: 25px;
+}
 
 a {
 	color: #293e6a;
